@@ -11,3 +11,6 @@ Open a browser and input the address in the following. Then you can start the ga
 ```
 http://localhost:8080/
 ```
+
+The game website is : https://tutu358.wixsite.com/website
+You can see the game trailer in the website: https://www.youtube.com/watch?v=GXYCmRvJIw4
