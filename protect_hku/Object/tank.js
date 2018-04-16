@@ -12,7 +12,7 @@ var Tank = cc.Sprite.extend({
         var waterObj = global.waterObjects;
         var X = this.getPosition().x, Y = this.getPosition().y;
         var s2w = this._s2w, s2h = this._s2h, tmp;
-        var maxSpace = (this._maxSpace-3) || 2.15;
+        var maxSpace = (this._maxSpace-2) || 2.15;
         for (var i = 0, len = mudObj.length; i < len; i++) {
             tmp = mudObj[i];
             if ( ( (X - s2w > tmp.origin.x && X - s2w < tmp.origin.x + tmp.size.width) ||
@@ -85,7 +85,7 @@ var Tank = cc.Sprite.extend({
         var waterObj = global.waterObjects;
         var s2w = this._s2w, s2h = this._s2h;
         var X = this.getPosition().x, Y = this.getPosition().y;
-        var maxSpace = (this._maxSpace-3) || 2.15;
+        var maxSpace = (this._maxSpace-2) || 2.15;
         for (var i = 0, len = mudObj.length; i < len; i++) {
             tmp = mudObj[i];
             if ( ( (X - s2w > tmp.origin.x && X - s2w < tmp.origin.x + tmp.size.width) ||
@@ -159,7 +159,7 @@ var Tank = cc.Sprite.extend({
         var waterObj = global.waterObjects;
         var s2w = this._s2w, s2h = this._s2h;
         var X = this.getPosition().x, Y = this.getPosition().y;
-        var maxSpace = (this._maxSpace-3) || 2.15;
+        var maxSpace = (this._maxSpace-2) || 2.15;
         for (var i = 0, len = mudObj.length; i < len; i++) {
             tmp = mudObj[i];
             if ( ( (Y - s2h > tmp.origin.y && Y - s2h < tmp.origin.y + tmp.size.height) ||
@@ -232,7 +232,7 @@ var Tank = cc.Sprite.extend({
         var waterObj = global.waterObjects;
         var s2w = this._s2w, s2h = this._s2h;
         var X = this.getPosition().x, Y = this.getPosition().y;
-        var maxSpace = (this._maxSpace-3) || 2.15;
+        var maxSpace = (this._maxSpace-2) || 2.15;
 
         for (var i = 0, len = mudObj.length; i < len; i++) {
             tmp = mudObj[i];
